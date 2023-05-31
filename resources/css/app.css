@@ -3,3 +3,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+
+.filament-forms-text-input-component {
+    @apply  w-full p-2.5 !important;
+}
+
+.filament-forms-input {
+    @apply w-full px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded !important;
+}
+
+.filament-forms-component-container {
+    @apply w-full;
+}
+
+.filament-forms-input > select{
+    @apply w-full px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded !important;
+
+
+}
