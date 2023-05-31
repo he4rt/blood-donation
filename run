@@ -12,6 +12,12 @@ function help {
 function default {
     help
 }
+function start {
+    bash scripts/spin up -d
+}
+function logs {
+    bash scripts/spin logs -f
+}
 function mfs { # migrate-fresh-seed
     bash scripts/spin exec -u webuser webapp php artisan migrate:fresh --seed
 }
