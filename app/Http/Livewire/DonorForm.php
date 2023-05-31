@@ -5,6 +5,7 @@ namespace App\Http\Livewire;
 use Filament\Forms;
 use Filament\Forms\Concerns\InteractsWithForms;
 use Filament\Forms\Contracts\HasForms;
+use Filament\Notifications\Notification;
 use Livewire\Component;
 
 class DonorForm extends Component implements HasForms
@@ -12,9 +13,14 @@ class DonorForm extends Component implements HasForms
     use InteractsWithForms;
 
     public array $donation = [
-        'name' => 'Daniel',
-        'content' => ''
+        'name' => '',
+        'email' => '',
+        'full_address' => '',
+        'job_title' => 'Developer/QA/PM',
+        'social_type' => '',
+        'social_url' => 'https://twitter.com/danielhe4rt'
     ];
+
     public function render()
     {
         return view('livewire.donor-form');
@@ -29,14 +35,40 @@ class DonorForm extends Component implements HasForms
     {
         return [
             Forms\Components\TextInput::make('name')
+                ->label('Nome e Sobrenome')
+                ->string()
                 ->required(),
-            Forms\Components\MarkdownEditor::make('content'),
+            Forms\Components\TextInput::make('email')
+                ->label('Seu Email')
+                ->email()
+                ->required(),
+            Forms\Components\TextInput::make('full_address')
+                ->label('Local de Doação')
+                ->placeholder('Cachoeira Paulista - SP / BR')
+                ->required(),
+            Forms\Components\TextInput::make('job_title')
+                ->label('Cargo/Titulo')
+                ->placeholder('Desenvolvedor / Estudante')
+                ->required(),
+            Forms\Components\Select::make('social_type')
+                ->options([
+                    'twitter' => 'Twitter',
+                    'instagram' => 'Instagram',
+                    'github' => 'Github',
+                    'none' => 'Não uso rede social'
+                ]),
+            Forms\Components\TextInput::make('social_url')
+                ->placeholder('https://twitter.com/danielhe4rt')
+                ->url(),
         ];
     }
 
     public function submit(): void
     {
-        dd($this->fill->getState());
+        Notification::make()
+            ->title('vai caraio')
+            ->success()
+            ->send();
     }
 
     public function getFormStatePath(): string

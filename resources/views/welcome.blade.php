@@ -11,6 +11,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     @livewireScripts
     @livewireStyles
+    @livewire('notifications')
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
@@ -698,47 +699,15 @@
     <section class="pt-24 pb-32 bg-black overflow-hidden">
         <div class="container mx-auto px-4">
             <div class="max-w-lg mx-auto text-center mb-14">
-                <h2 class="mb-5 font-heading font-semibold text-6xl sm:text-7xl text-white">Participe Agora!
-                </h2>
+                <h2 class="mb-5 font-heading font-semibold text-6xl sm:text-7xl text-white">Participe Agora!</h2>
                 <p class="text-gray-400 text-lg">Preencha o formulário com informações de onde você doará sangue e deixe
                     seu contato.
                 </p>
             </div>
-            <livewire:donor-form />
+
             <div class="flex flex-wrap max-w-xl mx-auto -m-2.5">
-                <div class="w-full p-2.5">
-                    <input
-                        class="w-full px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-indigo-500 placeholder-gray-500 rounded"
-                        type="text" placeholder="Your full name">
-                </div>
-                <div class="w-full p-2.5">
-                    <input
-                        class="w-full px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-indigo-500 placeholder-gray-500 rounded"
-                        type="text" placeholder="Your email address">
-                </div>
-                <div class="w-full p-2.5"><textarea
-                        class="w-full h-40 px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded"
-                        type="text" placeholder="Write message"></textarea></div>
-                <div class="w-full p-2.5">
-                    <div class="group relative">
-                        <div
-                            class="absolute top-0 left-0 w-full h-full bg-gradient-green opacity-0 group-hover:opacity-50 rounded-lg transition ease-out duration-300"></div>
-                        <button
-                            class="p-1 w-full font-heading font-semibold text-xs text-gray-900 uppercase tracking-px overflow-hidden rounded-md">
-                            <div class="relative p-5 px-11 bg-gradient-green overflow-hidden rounded-md">
-                                <div
-                                    class="absolute top-0 left-0 transform -translate-y-full group-hover:-translate-y-0 h-full w-full bg-white transition ease-in-out duration-500"></div>
-                                <p class="relative z-10">Send message</p>
-                            </div>
-                        </button>
-                    </div>
-                </div>
-                <div class="w-full p-2.5">
-                    <p class="text-sm text-gray-500 text-center">
-                        <span>By clicking the send button, you agree with our</span>
-                        <a class="pb-1 hover:text-gray-400 border-b border-gray-500" href="#">Terms &amp; Conditions</a>
-                    </p>
-                </div>
+                <livewire:donor-form />
+
             </div>
         </div>
     </section>

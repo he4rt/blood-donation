@@ -1,6 +1,5 @@
-<div>
-    <h1>lolololo</h1>
-    <form wire:submit.prevent="submit">
+<div class="w-full">
+    <form class="h-auto" wire:submit.prevent="submit">
         {{ $this->form }}
 
         <button
