@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap">
     <link rel="icon" type="image/png" sizes="32x32" href="shuffle-for-tailwind.png">
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+    @livewireScripts
+    @livewireStyles
 </head>
 <body class="antialiased bg-body text-body font-body">
 <div>
@@ -702,6 +704,7 @@
                     seu contato.
                 </p>
             </div>
+            <livewire:donor-form />
             <div class="flex flex-wrap max-w-xl mx-auto -m-2.5">
                 <div class="w-full p-2.5">
                     <input

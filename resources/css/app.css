@@ -3,3 +3,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.filament-forms-text-input-component {
+    @apply  items-center space-x-2 rtl:space-x-reverse !important;
+}
+
+.filament-forms-input {
+    @apply w-full h-40 px-5 py-4 text-gray-500 text-base bg-transparent border border-gray-800 outline-none focus:ring-4 focus:ring-indigo-500 placeholder-gray-500 resize-none rounded !important;
+}
