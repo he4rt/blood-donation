@@ -4,6 +4,7 @@ namespace App\Models\Donor;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 class Donor extends Model
 {
@@ -20,4 +21,9 @@ class Donor extends Model
         'social_type',
         'social_url'
     ];
+
+    public function status(): BelongsTo
+    {
+        return $this->belongsTo(Status::class);
+    }
 }
