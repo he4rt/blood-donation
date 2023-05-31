@@ -1,7 +1,6 @@
 FROM node:19 as static-assets
 WORKDIR /app
 COPY . .
-RUN npm install
 
 FROM serversideup/php:8.2-fpm-nginx
 WORKDIR /var/www/html
@@ -20,6 +19,9 @@ COPY --from=static-assets --chown=9999:9999 /app/public/build ./public/build
 
 RUN php artisan route:cache
 RUN php artisan view:cache
+
+WORKDIR /app
+RUN npm install
 RUN npm run build
 
 RUN echo "alias ll='ls -al'" >>/etc/bash.bashrc
