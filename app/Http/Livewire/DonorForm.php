@@ -66,7 +66,8 @@ class DonorForm extends Component implements HasForms
     public function submit(): void
     {
         Notification::make()
-            ->title('vai caraio')
+            ->title('Obrigado pela doação!')
+            ->body('Iremos revisar sua submissão e em breve estará em nosso site!')
             ->success()
             ->send();
     }
