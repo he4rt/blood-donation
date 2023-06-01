@@ -487,16 +487,16 @@
         <h2 class="max-w-2xl mx-auto mb-5 text-6xl font-bold text-center text-gray-900 font-heading sm:text-7xl">
           Doadores da campanha
         </h2>
-        <p class="max-w-md mx-auto mb-16 text-base text-center text-gray-600">.</p>
+        <p class="max-w-md mx-auto mb-16 text-base text-center text-gray-600">Obrigado à todos que toparam participar dessa iniciativa de honra.</p>
         <div class="flex flex-wrap -m-5">
           @foreach(range(1,5) as $fodase)
           <div class="w-full p-5 md:w-1/5">
             <div
               class="h-full p-0.5 bg-white transform hover:-translate-y-3 rounded-10 transition ease-out duration-1000">
               <div class="flex flex-col h-full gap-2 p-4 text-center bg-white rounded-xl">
-                <img class="w-full rounded-lg" src="{{ 'https://github.com/danielhe4rt.png' }}" alt="">
+                <img class="w-full rounded-lg" src="{{ 'https://cdn.discordapp.com/attachments/219843740439674880/1113855409015509072/user.png' }}" alt="">
                 <div class="flex items-center justify-between md:flex-col">
-                  <h3 class="text-lg font-bold text-gray-900">Darrell Steward</h3>
+                  <h3 class="text-lg font-bold text-gray-900">Aguardando Doador</h3>
                   <p class="text-sm text-gray-600">Developer</p>
                 </div>
                 <div class="flex items-center justify-center px-2 py-1 bg-purple-100 rounded-full ">
