@@ -149,7 +149,7 @@
             </svg>
             <p class="my-5 text-xl font-medium text-gray-900 font-heading">
               A contribuição com a comunidade pode
-              ir além dos seus commits
+              ir além dos seus commits.
             </p>
             <div class="flex flex-wrap mb-20 -m-3">
               <div class="w-full p-3 lg:w-auto">
@@ -364,39 +364,35 @@
           <h2 class="mb-5 text-5xl font-semibold text-center text-gray-900 font-heading sm:text-6xl"
             contenteditable="false">Nossa campanha até agora<br>
           </h2>
-          <p class="text-base text-center text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua
-            dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+          <p class="text-base text-center text-gray-600">Confira o progresso da nossa campanha de doação de sangue e os impactos até o momento. Nosso objetivo é cada vez mais.</p>
         </div>
         <div class="max-w-4xl mx-auto">
           <div class="flex flex-wrap justify-center -m-6 divide-y divide-gray-200 md:-m-16 md:divide-y-0 md:divide-x">
             <div class="w-full p-6 md:w-1/3 md:p-16">
               <h2
                 class="mb-3 font-bold text-center text-transparent font-heading text-12xl sm:text-13xl md:text-14xl xl:text-15xl bg-clip-text bg-gradient-purple">
-                10</h2>
+                00</h2>
               <h3 class="mb-3 text-lg font-semibold text-center text-gray-900 font-heading">Doadores em espera
               </h3>
-              <p class="text-center text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua
-                dolor</p>
+              <p class="text-center text-gray-600">Pessoas que se comprometeram em fazer a sua parte até o fim da campanha</p>
             </div>
             <div class="w-full p-6 md:w-1/3 md:p-16">
               <h2
                 class="mb-3 font-bold text-center text-transparent font-heading text-12xl sm:text-13xl md:text-14xl xl:text-15xl bg-clip-text bg-gradient-purple">
-                20
+                00
               </h2>
               <h3 class="mb-3 text-lg font-semibold text-center text-gray-900 font-heading">Doadores
                 concluidos
               </h3>
-              <p class="text-center text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua
-                dolor</p>
+              <p class="text-center text-gray-600">Pessoas que vestiram a camiseta da campanha em pró de salvar vidas</p>
             </div>
             <div class="w-full p-6 md:w-1/3 md:p-16">
               <h2
                 class="mb-3 font-bold text-center text-transparent bg-red-500 font-heading text-12xl sm:text-13xl md:text-14xl xl:text-15xl bg-clip-text">
-                30L</h2>
+                00L</h2>
               <h3 class="mb-3 text-lg font-semibold text-center text-gray-900 font-heading">Litros Doados
               </h3>
-              <p class="text-center text-gray-600">Amet minim mollit non deserunt ullamco est sit aliqua
-                dolor</p>
+              <p class="text-center text-gray-600">Cada gota importa. De gota em gota, a gente alimenta a vida</p>
             </div>
           </div>
         </div>
@@ -407,8 +403,8 @@
       <div class="container px-4 mx-auto">
         <div class="flex flex-wrap mb-12 -m-6">
           <div class="w-full p-6">
-            <h2 class="max-w-xl mb-16 text-6xl font-bold text-white font-heading sm:text-7xl">Three steps to get
-              started</h2>
+            <h2 class="max-w-xl mb-16 text-6xl font-bold text-white font-heading sm:text-7xl">Como participar
+            </h2>
             <div class="flex flex-wrap -m-6">
               <div class="w-full p-6 lg:w-1/2">
                 <div class="mb-11 lg:max-w-sm">
@@ -422,11 +418,8 @@
                       </div>
                     </div>
                     <div class="flex-1 p-4">
-                      <h3 class="mb-4 text-xl font-semibold text-white font-heading">Create A Free
-                        Account</h3>
-                      <p class="text-base text-gray-200">Amet minim mollit non deserunt ullamco est
-                        sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                        mollit.</p>
+                      <h3 class="mb-4 text-xl font-semibold text-white font-heading">Esteja atento</h3>
+                      <p class="text-base text-gray-200">Confira como funciona o sistema de doação de sangue nos postos de coleta da sua cidade e fique atento aos requisitos e impedimentos. Honestidade também salva vidas. Ao doar sangue, seja sincero na entrevista.</p>
                     </div>
                   </div>
                 </div>
@@ -441,11 +434,8 @@
                       </div>
                     </div>
                     <div class="flex-1 p-4">
-                      <h3 class="mb-4 text-xl font-semibold text-white font-heading">Select Your
-                        Package</h3>
-                      <p class="text-base text-gray-200">Amet minim mollit non deserunt ullamco est
-                        sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                        mollit.</p>
+                      <h3 class="mb-4 text-xl font-semibold text-white font-heading">Faça a sua parte</h3>
+                      <p class="text-base text-gray-200">Doe sangue! É seguro, rápido e essencial à vida. Não se esqueça de tirar uma foto ou um comprovante de doação para poder participar do movimento.</p>
                     </div>
                   </div>
                 </div>
@@ -460,11 +450,8 @@
                       </div>
                     </div>
                     <div class="flex-1 p-4">
-                      <h3 class="mb-4 text-xl font-semibold text-white font-heading">Grow Business
-                        Fast</h3>
-                      <p class="text-base text-gray-200 mb-11">Amet minim mollit non deserunt ullamco
-                        est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit
-                        mollit.</p>
+                      <h3 class="mb-4 text-xl font-semibold text-white font-heading">Espalhe a campanha!</h3>
+                      <p class="text-base text-gray-200 mb-11">Faça no nosso site o processo de confirmação de doação para participar de sorteios e aproveite e poste nas redes sociais a sua colaboração. Seu compartilhamento ajuda a campanha e a solidariedade transforma o mundo.</p>
                       <div class="relative group max-w-max">
                         <div
                           class="absolute top-0 left-0 w-full h-full transition duration-300 ease-out rounded-lg opacity-0 group-hover:opacity-50">
@@ -476,7 +463,7 @@
                             <div
                               class="absolute top-0 left-0 w-full h-full transition duration-500 ease-in-out transform -translate-y-full bg-white group-hover:-translate-y-0">
                             </div>
-                            <p class="relative z-10">Get Started now</p>
+                            <p class="relative z-10">Fazer parte</p>
                           </div>
                         </button>
                       </div>
@@ -500,8 +487,7 @@
         <h2 class="max-w-2xl mx-auto mb-5 text-6xl font-bold text-center text-gray-900 font-heading sm:text-7xl">
           Doadores da campanha
         </h2>
-        <p class="max-w-md mx-auto mb-16 text-base text-center text-gray-600">Amet minim mollit non deserunt ullamco
-          est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</p>
+        <p class="max-w-md mx-auto mb-16 text-base text-center text-gray-600">.</p>
         <div class="flex flex-wrap -m-5">
           @foreach(range(1,5) as $fodase)
           <div class="w-full p-5 md:w-1/5">
