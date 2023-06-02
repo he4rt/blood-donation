@@ -56,21 +56,21 @@
                             <ul class="flex items-center mr-10">
                                 <li
                                     class="text-lg text-white transition duration-500 ease-in-out delay-150 font-heading mr-9 hover:-translate-y-1 hover:scale-110">
-                                    <a href="#">Nossa
+                                    <a href="#out-campaign">Nossa
                                         Campanha</a>
                                 </li>
                                 <li
                                     class="text-lg text-white transition duration-500 ease-in-out delay-150 font-heading mr-9 hover:-translate-y-1 hover:scale-110">
-                                    <a href="#">Como
+                                    <a href="#donation">Como
                                         Doar</a>
                                 </li>
                                 <li
                                     class="text-lg text-white transition duration-500 ease-in-out delay-150 font-heading mr-9 hover:-translate-y-1 hover:scale-110">
-                                    <a href="#">Doadores</a>
+                                    <a href="#donors">Doadores</a>
                                 </li>
                                 <li
                                     class="text-lg text-white transition duration-500 ease-in-out delay-150 font-heading hover:-translate-y-1 hover:scale-110">
-                                    <a href="#">Parceiros</a>
+                                    <a href="#partners">Parceiros</a>
                                 </li>
                             </ul>
                         </div>
@@ -409,7 +409,7 @@
         </div>
     </section>
 
-    <section class="relative pt-24 overflow-hidden pb-28">
+    <section id="out-campaign" class="relative pt-24 overflow-hidden pb-28">
         <div class="container px-4 mx-auto">
             <div class="max-w-xl mx-auto mb-20">
                 <h2 class="mb-5 text-5xl font-semibold text-center text-gray-900 font-heading sm:text-6xl"
@@ -455,7 +455,7 @@
         </div>
     </section>
 
-    <section class="relative pt-20 overflow-hidden bg-purple-800">
+    <section id="donation" class="relative pt-20 overflow-hidden bg-purple-800">
         <div class="container px-4 mx-auto">
             <div class="flex flex-wrap mb-12 -m-6">
                 <div class="w-full p-6">
@@ -549,7 +549,7 @@
         </div>
     </section>
 
-    <section class="relative pt-24 pb-32 overflow-hidden bg-gray-100">
+    <section id="donors" class="relative pt-24 pb-32 overflow-hidden bg-gray-100">
         <div class="container px-4 mx-auto">
             <h2 class="max-w-2xl mx-auto mb-5 text-6xl font-bold text-center text-gray-900 font-heading sm:text-7xl">
                 Doadores da campanha
